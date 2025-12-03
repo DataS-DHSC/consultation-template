@@ -7,7 +7,17 @@ In the R folder, you will find quarto files with template code to run a basic co
 - [03_lda_analysis.qmd](https://github.com/DataS-DHSC/consultation_example/blob/main/R/03_lda_analysis.qmd)
 - [04_output_for_labellers.qmd](https://github.com/DataS-DHSC/consultation_example/blob/main/R/04_output_for_labellers.qmd)
 
+## QA status
+All code in the `main` branch is QA'd.
+
+## Development status
+Active.
+
+## Next review date
+1st April 2026.
+
 ## Usage
+
 ### Random Seeds
 
 For reproducibility we give the lda functions a random seed. We recommend setting this to the long-form of a date relevant to the project, e.g. 20250102. This ensures that different projects are using different seeds, which has become an issue in random simulations. e.g. some projects had statistical quirks because almost every project was using one of "42", "1234", ... etc. 
